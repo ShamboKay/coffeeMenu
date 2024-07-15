@@ -1,0 +1,2 @@
+Just messing around with learning to code with freecodecamp and trying to implement my own things into finished projects to help me attain what I have just learned and learn a new thing or two.
+I wanted to add a curency exchange with some interactivity with JS and as that is my main focus and it I learned a few new things like "parse.float" "foreach." loops and breaking down how to logic would work and learn what logic I was missing myself.
