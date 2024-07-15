@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="coffeeMenu.css" rel="stylesheet"/>
+    <script src="coffeeMenu.js"></script>
+  </head>
+  
+  <body>
+
+    <div class="menu">
+      
+    <main>
+
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <p class="established">Curency changer, below</p>
+        <select class="currencyBtn" id="currencySelector" onchange="currencyChange()">
+          <option value="GBP">£: x1</option>
+          <option value="USD">$: x1.3</option>
+          <option value="EUR">€: x1.15</option>
+      </select>
+        
+        <hr>
+
+    <section class="menuHolder">
+      <h2>Coffee</h2>
+      <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+      
+      
+          <!-- Prices 1-->
+            <article class="item">
+                <p class="flavor">French Vanilla</p><p class="middle">~</p><p class="currency currencyChange">£</p><p class="price priceChange" >3.00</p>
+            </article>
+            <article class="item">
+                <p class="flavor">Caramel Macchiato</p><p class="middle">~</p><p class="currency currencyChange">£</p><p class="price priceChange" >3.75</p>
+            </article>
+          <article class="item">
+                <p class="flavor">Pumpkin Spice</p><p class="middle">~</p><p class="currency currencyChange">£</p><p class="price priceChange" >3.50</p>
+          </article>
+          <article class="item">
+                <p class="flavor">Hazelnut</p><p class="middle">~</p><p class="currency currencyChange">£</p><p class="price priceChange" >4.00</p>
+          </article>
+          <article class="item">
+                <p class="flavor">Mocha</p><p class="middle">~</p><p class="currency currencyChange">£</p><p class="price priceChange" >4.50</p>
+          </article>
+          
+    </section>
+
+    <hr> 
+
+    <section class="menuHolder">
+                            <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+           
+          <!-- Prices 2-->
+          <article class="item">
+
+            <p class="dessert">Donut</p><p class="middle">~</p><p class="currency currencyChange">£</p><p class="price priceChange">1.50</p>
+          </article>
+
+          <article class="item">
+
+            <p class="dessert">Cherry Pie</p><p class="middle">~</p><p class="currency currencyChange">£</p><p class="price priceChange">2.75</p>
+          </article>
+          
+          <article class="item">
+
+            <p class="dessert">Cheesecake</p><p class="middle">~</p><p class="currency currencyChange">£</p><p class="price priceChange">3.00</p>
+          </article>
+
+          <article class="item">
+
+            <p class="dessert">Cinnamon Roll</p><p class="middle">~</p><p class="currency currencyChange">£</p><p class="price priceChange">2.50</p>
+          </article>
+
+        </section>
+
+      </main>
+
+      <!-- header 2 -->
+      
+      <hr>
+
+      <!-- Footer -->
+      <footer>
+
+        <p>
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+        </p>
+
+        <p class="address">123 Free Code Camp Drive
+
+        </p>
+
+      </footer>
+
+    </div>
+    <!-- TODO: Add a curency exchange with javascript and add aditional buttons to make the menu have some interactivity 
+    Will be able to convert the 3 most popular currency -->
+
+  </body>
+</html>
